@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jumbotron Template for Bootstrap</title>
+    <!-- Bootstrap core CSS-->
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">PC Repairs</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.nav-collapse-->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="container">
+        <form method="post" action="contact/send"></form>
+        <h1>Contact</h1>
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Enter Name" class="form-control">
+        <div class="form-group"></div>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter Email" class="form-control">
+        <div class="form-group"></div>
+        <label>Message</label>
+        <textarea name="message" placeholder="Enter Message" class="form-control"></textarea>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <p class="text-center">© 2015 Company, Inc.</p>
+    </footer>
+    <!-- /container-->
+  </body>
+</html>
